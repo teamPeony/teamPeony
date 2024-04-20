@@ -1,0 +1,124 @@
+body{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: 'georgia', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+@keyframes animateTopic {
+    from{
+      
+      transform: translateY(-60%);
+    }
+    to{
+      
+      transform:translateY(0);
+    } 
+}
+
+h1{
+    margin-top: 2%;
+    animation: animateTopic 0.5s ease-in-out forwards;
+}
+
+#member2{
+  position: relative;
+  margin-top: 2%;
+  width: 20%;
+  height: 40%;
+  left: 14%;
+  
+}
+
+.intro{
+    background-color: black;
+    color: aliceblue;
+    opacity: 50%;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    text-align: center;
+    left: 28%;
+    top: 2%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    font-size: large;
+}
+
+@keyframes animateUserprofile {
+    from{
+      
+      transform: translateX(-20%);
+    }
+    to{
+      
+      transform:translateX(0);
+    } 
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.home-page{
+    
+    width: 100%;
+    top: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    animation: animateUserprofile 1s ease-in-out forwards;
+}
+
+@keyframes animateVolunteer {
+    from{
+      
+      transform: translateX(20%);
+    }
+    to{
+      
+      transform:translateX(0);
+    } 
+}
+
+.Feedback{
+    
+    top: 123%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    animation: animateTeam 1s ease-in-out forwards;
+}
+
+@keyframes animateTeam {
+    from{
+      
+      transform: translateX(-20%);
+    }
+    to{
+      
+      transform:translateX(0);
+    } 
+}
+.Event{
+    
+    top: 95%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    animation: animateVolunteer 1s ease-in-out forwards;
+}
+
+a:link {
+    color:purple ;
+}
+a:hover{
+    color:rgb(0, 0, 0) ;
+    background-color: rgb(169, 253, 225);
+}
+
